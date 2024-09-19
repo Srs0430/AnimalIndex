@@ -1,0 +1,69 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.searchInput{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: large;
+}
+
+.searchButton{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+body {
+    background-color: #add8e6; /* Light blue */
+}
+
+.searchButton:hover{
+    background-color: #e0e0e0;
+    border: 1px solid #ae00ff;
+}
+
+.search-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animalInfo {
+    width: 300px;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+
+.animal-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.animal-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.animal-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
